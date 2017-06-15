@@ -114,8 +114,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $(".scrollup").fadeIn();
+            $(".main-menu").addClass('main-menu-fixed');
         } else {
             $(".scrollup").fadeOut();
+            $(".main-menu").removeClass('main-menu-fixed');
         }
     });
 
