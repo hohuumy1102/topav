@@ -841,6 +841,8 @@ footer {
       max-width: 150px; }
     .section-blog .list-blog .media-list .media:last-child {
       border-bottom-width: 0px; }
+  .section-blog .news-content {
+    line-height: 1.4; }
 
 .product-info {
   margin-bottom: 10px; }
@@ -953,7 +955,7 @@ footer {
       border-radius: 0; }
   .description .tabbable-panel .tabbable-line .tab-content {
     padding: 15px;
-    line-height: 1.2; }
+    line-height: 1.4; }
 
 .blog-detail {
   font-family: "HelveticaLight"; }
